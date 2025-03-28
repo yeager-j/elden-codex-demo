@@ -1,0 +1,13 @@
+{
+  "$schema": "./schema/locations.schema.json",
+  "locations": [
+    {
+      "id": "limgrave-deathtouched-catacombs",
+      "name": "Deathtouched Catacombs"
+    },
+    {
+      "id": "liurnia-moonlight-altar",
+      "name": "Moonlight Altar"
+    }
+  ]
+}

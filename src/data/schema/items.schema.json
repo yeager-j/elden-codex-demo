@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "itemType": {
+            "type": "string",
+            "enum": ["weapon", "key-item", "armor", "consumable"]
+          },
+          "locationId": { "type": "string" },
+          "description": { "type": "string" }
+        }
+      }
+    }
+  }
+}

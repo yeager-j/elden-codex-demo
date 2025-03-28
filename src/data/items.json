@@ -1,0 +1,19 @@
+{
+  "$schema": "./schema/items.schema.json",
+  "items": [
+    {
+      "id": "uchigatana",
+      "name": "Uchigatana",
+      "itemType": "weapon",
+      "locationId": "limgrave-deathtouched-catacombs",
+      "description": "A katana with a long single-edged curved blade. \nA unique weapon wielded by the samurai from the Land of Reeds.\n\nThe blade, with its undulating design, boasts extraordinary sharpness, and its slash attacks cause blood loss."
+    },
+    {
+      "id": "dark-moon-greatsword",
+      "name": "Dark Moon Greatsword",
+      "itemType": "weapon",
+      "locationId": "liurnia-moonlight-altar",
+      "description": "\nA Moon Greatsword, bestowed by a Carian queen upon her\nspouse to honor long-standing tradition.\nOne of the legendary armaments.\n\nRanni's sigil is a full moon, cold and leaden, and this sword is but a beam of its light."
+    }
+  ]
+}
