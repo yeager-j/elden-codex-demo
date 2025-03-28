@@ -17,4 +17,8 @@ export type ActionMap = {
 export const actionMap = {
   lookUpItem: lookUpItem,
   lookUpLocation: lookUpLocation,
+  exit: () => {
+    console.log("Goodbye!");
+    process.exit(0);
+  },
 } satisfies ActionMap;
