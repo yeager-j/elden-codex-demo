@@ -1,5 +1,26 @@
 **DEMO IMPLEMENTATION FOR BELOW PRD**
 
+## Project Structure
+
+```text
+elden-codex/
+├── src/
+│   ├── main.ts                # CLI entry point
+│   ├── action-map.ts          # Maps CLI commands to actions
+│   ├── actions/               # Command implementations
+│   │   ├── look-up-item.ts
+│   │   └── look-up-location.ts
+│   ├── data/                  # JSON item/location data + schemas
+│   │   ├── items.json
+│   │   ├── locations.json
+│   │   └── schema/
+│   ├── types/                 # Shared TypeScript types
+│   └── utils/                 # Data-loading helpers
+├── package.json
+├── tsconfig.json
+└── vitest.config.mts
+```
+
 # Elden Ring Item Catalog CLI - Product Requirements Document
 
 ## Overview
